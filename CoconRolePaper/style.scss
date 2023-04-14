@@ -7,27 +7,29 @@ body {
     margin: 0 auto;
     justify-content: center;
     line-height: 1.7rem;
-    input {
-        width: 50%;
-    }
+   
     tbody {
         outline: 1px black solid;
         tr {
+            .ampm {
+                text-align: center;
+            }
+            .jobName {
+                width: 32%;
+            }
             outline: 1px black solid;
             td {
                 outline: 1px black solid;
+                input {
+                   width:50%
+                }
+                span {
+                    margin: 2px 2px;
+                    border: 1px solid black;
+                }
             }
         }
     }
 }
 
-.jobName {
-    width: 32%;
-}
-.ampm {
-    text-align: center;
-}
-span {
-    margin: 2px 2px;
-    border: 1px solid black;
-}
+

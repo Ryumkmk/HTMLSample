@@ -4,28 +4,25 @@ body {
   justify-content: center;
   line-height: 1.7rem;
 }
-body input {
-  width: 50%;
-}
 body tbody {
   outline: 1px black solid;
 }
 body tbody tr {
   outline: 1px black solid;
 }
+body tbody tr .ampm {
+  text-align: center;
+}
+body tbody tr .jobName {
+  width: 32%;
+}
 body tbody tr td {
   outline: 1px black solid;
 }
-
-.jobName {
-  width: 32%;
+body tbody tr td input {
+  width: 50%;
 }
-
-.ampm {
-  text-align: center;
-}
-
-span {
+body tbody tr td span {
   margin: 2px 2px;
   border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
