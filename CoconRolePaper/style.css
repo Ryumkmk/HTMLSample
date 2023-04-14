@@ -1,5 +1,12 @@
-body * {
-  outline: 1px solid red;
+tbody * {
+  outline: 1px black solid;
+}
+
+body {
+  width: 94%;
+  margin: 0 auto;
+  justify-content: center;
+  line-height: 1.7rem;
 }
 
 .jobName {
