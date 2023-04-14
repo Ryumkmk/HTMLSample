@@ -1,24 +1,33 @@
 body * {
     // outline: 1px solid red;
 }
-tbody * {
-    outline: 1px black solid;
-}
-body{
-    width:94%;
+
+body {
+    width: 94%;
     margin: 0 auto;
     justify-content: center;
     line-height: 1.7rem;
+    input {
+        width: 50%;
+    }
+    tbody {
+        outline: 1px black solid;
+        tr {
+            outline: 1px black solid;
+            td {
+                outline: 1px black solid;
+            }
+        }
+    }
 }
-.jobName{
+
+.jobName {
     width: 32%;
 }
-.ampm{
+.ampm {
     text-align: center;
 }
-span{
-    width: 1em;
-    height: 1em;
-    line-height: 1em;
+span {
+    margin: 2px 2px;
     border: 1px solid black;
 }

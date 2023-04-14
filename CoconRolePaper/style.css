@@ -1,12 +1,20 @@
-tbody * {
-  outline: 1px black solid;
-}
-
 body {
   width: 94%;
   margin: 0 auto;
   justify-content: center;
   line-height: 1.7rem;
+}
+body input {
+  width: 50%;
+}
+body tbody {
+  outline: 1px black solid;
+}
+body tbody tr {
+  outline: 1px black solid;
+}
+body tbody tr td {
+  outline: 1px black solid;
 }
 
 .jobName {
@@ -18,8 +26,6 @@ body {
 }
 
 span {
-  width: 1em;
-  height: 1em;
-  line-height: 1em;
+  margin: 2px 2px;
   border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
