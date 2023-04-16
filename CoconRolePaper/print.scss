@@ -1,0 +1,16 @@
+@page {
+    margin: 10mm;
+    size: 297mm 210mm;
+}
+
+@media print {
+    body * {
+        // outline:  1px solid red;
+    }
+    body {
+        display: flex;
+        margin: 30px 60px 70px 30px;
+        width: 1190px;
+        font-size: 11px;
+    }
+}
